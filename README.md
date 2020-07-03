@@ -37,32 +37,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## About The Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is aimed at visualising the stock data (fetched from mock JSON API) for analysis purpose about the sales spanned accross months throughout the year. It gives two options to either make a chart of inventory vs month, or a dynamic table for the same. User can select a product from the dropdown to visualise the particular product at a time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Domains Explored
 
-### Code Splitting
+### styling
+- CSS styling is done with bootstrap.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### react-select
+- For dropdown menu.
 
-### Analyzing the Bundle Size
+### rechart
+- For deploying the data in chart.
+- Handy with various customisable features.
+- I deployed a line chart for my stock.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### HTML table
+- HTML table was sufficient as per usage.
+- Dynamic Sorting feature was also written to sort on a column(asc or desc).
 
-### Making a Progressive Web App
+### state() and setState()
+- Understood the concept of these two along with the usage of ComponentDidMount(), thoroughly.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### mock api
+- Used a mock JSON api for the development phase.
+- Created a mock DB to which api referenced.
